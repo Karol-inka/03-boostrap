@@ -1,9 +1,18 @@
+:root {
+    --bs-success-bg-subtle: #E2EED8;
+    --bs-danger-bg-subtle: #EFDFDF;
+    --bs-success-rgb: 92, 184, 92;
+    --bs-danger-rgb: 217, 83, 79;
+    --bs-primary-rgb: 28, 124, 213;
+    --bs-secondary-rgb: 85, 89, 92;
+}
+
 .card-body img {
     height: 100%;
     width: auto;
 }
 
-input:not([type=checkbox],[type=radio]), label, textarea, select {
+input:not([type=checkbox],[type=radio]), label{
     display: block;
     width: 100%;
     padding: .5rem;
@@ -33,16 +42,17 @@ h3 {
     font-weight: 500;
 }
 
-.btn {
-    padding: 1rem;
-}
-
 button {
     padding: 0.4rem 1rem;
     text-transform: uppercase;
     border-radius: 6px;
     color: #fff;
     background-color: #1c7cd5;
-    
+    border-color: #1c7cd5;  
+}
+
+.btns {
+    padding-bottom: 5rem;
+    padding-top: 1rem;
 }
 
